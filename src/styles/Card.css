@@ -1,0 +1,40 @@
+.card {
+  background-color: lightgray;
+  color: rgb(122, 122, 122);
+  width: 250px;
+  border-radius: 10px;
+  margin: 0.6rem;
+}
+.card-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-title {
+  background-color: tomato;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+.card-more {
+  margin-right: 1rem;
+}
+.card-description {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+.card-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-icons:hover {
+  color: teal;
+  cursor: pointer;
+}
+img {
+  border-radius: 50px;
+  height: 30px;
+  margin: 1rem;
+}
